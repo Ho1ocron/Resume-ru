@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects</title>
+  <meta name="description" content="CV/Portfolio — Харлов Ярослав, разработчик. Python, Go, C++, JavaScript." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script>
+    if (localStorage.getItem('theme') === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+  </script>
+</head>
+<body>
+
+  <!-- ============================================================
+       HERO
+  ============================================================ -->
+  <header class="hero" id="hero">
+    <div class="hero__inner container">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">☀</button>
+      <h1 class="hero__name">Харлов Ярослав</h1>
+      <p class="hero__role">Backend / Fullstack Developer</p>
+      <ul class="hero__contacts">
+        <li>
+          <span class="contact-icon">
+            <svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true">
+              <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38
+                       0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13
+                       -.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66
+                       .07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15
+                       -.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27
+                       .68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12
+                       .51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48
+                       0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
+            </svg>
+          </span>
+          <a href="https://github.com/Ho1ocron" target="_blank" rel="noopener noreferrer">Ho1ocron</a>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <!-- ============================================================
+         HARD SKILLS
+    ============================================================ -->
+    <section class="section" id="skills">
+      <h2 class="section__title">Hard Skills</h2>
+      <div class="section__body">
+        <div class="skills-grid">
+
+          <div class="skill-group">
+            <span class="skill-group__label">Языки</span>
+            <div class="badges">
+              <span class="badge badge--lang">Python</span>
+              <span class="badge badge--lang">Go</span>
+              <span class="badge badge--lang">C/C++</span>
+              <span class="badge badge--lang">JavaScript</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <span class="skill-group__label">Фреймворки и библиотеки</span>
+            <div class="badges">
+              <span class="badge">Django</span>
+              <span class="badge">FastAPI</span>
+              <span class="badge">Vite.js</span>
+              <span class="badge">Tortoise-ORM</span>
+              <span class="badge">BeautifulSoup</span>
+              <span class="badge">httpx</span>
+              <span class="badge">aiohttp</span>
+              <span class="badge">aiogram</span>
+              <span class="badge">OpenCV</span>
+              <span class="badge">selenium</span>
+              <span class="badge">GLFW</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <span class="skill-group__label">Базы данных</span>
+            <div class="badges">
+              <span class="badge badge--db">PostgreSQL</span>
+              <span class="badge badge--db">MySQL</span>
+              <span class="badge badge--db">Redis</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <span class="skill-group__label">Инструменты</span>
+            <div class="badges">
+              <span class="badge badge--tool">Git</span>
+              <span class="badge badge--tool">Docker</span>
+              <span class="badge badge--tool">CI/CD</span>
+              <span class="badge badge--tool">CMake</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <span class="skill-group__label">Веб</span>
+            <div class="badges">
+              <span class="badge badge--web">HTML</span>
+              <span class="badge badge--web">CSS</span>
+              <span class="badge badge--web">Nginx</span>
+              <span class="badge badge--web">Caddy</span>
+              <span class="badge badge--web">JWT</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <span class="skill-group__label">Архитектура</span>
+            <div class="badges">
+              <span class="badge badge--arch">REST API</span>
+              <span class="badge badge--arch">Микросервисы</span>
+              <span class="badge badge--arch">Монолит</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <span class="skill-group__label">Операционные системы</span>
+            <div class="badges">
+              <span class="badge badge--os">Windows</span>
+              <span class="badge badge--os">Linux (Ubuntu / Fedora / Server)</span>
+              <span class="badge badge--os">macOS</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         ПРОЕКТЫ
+    ============================================================ -->
+    <section class="section" id="projects">
+      <h2 class="section__title">Проекты</h2>
+      <div class="section__body">
+        <div class="projects-grid">
+
+          <!-- Suggestion-bot -->
+          <article class="card">
+            <div class="card__header">
+              <span class="card__icon" aria-hidden="true">🤖</span>
+              <h3 class="card__title">Suggestion-bot</h3>
+            </div>
+            <p class="card__desc">
+              Телеграм-бот для автоматизации отправки сообщений администраторам от создателей контента.
+            </p>
+            <div class="card__stack badges">
+              <span class="badge badge--stack">Python</span>
+              <span class="badge badge--stack">aiogram</span>
+              <span class="badge badge--stack">tortoise-orm</span>
+              <span class="badge badge--stack">Redis</span>
+              <span class="badge badge--stack">PostgreSQL</span>
+              <span class="badge badge--stack">Docker</span>
+            </div>
+            <div class="card__links">
+              <a class="btn btn--ghost" href="https://github.com/Ho1ocron/Request-Bot" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+                GitHub
+              </a>
+            </div>
+          </article>
+
+          <!-- Exam Game -->
+          <article class="card">
+            <div class="card__header">
+              <span class="card__icon" aria-hidden="true">🎮</span>
+              <h3 class="card__title">Exam Game</h3>
+            </div>
+            <p class="card__desc">
+              Игра на Pygame с покадровой отрисовкой анимаций, обработкой спрайтов, скейлингом и коррекцией цветов.
+            </p>
+            <div class="card__stack badges">
+              <span class="badge badge--stack">Python</span>
+              <span class="badge badge--stack">pygame</span>
+              <span class="badge badge--stack">OpenCV</span>
+            </div>
+            <div class="card__links">
+              <a class="btn btn--ghost" href="https://github.com/Ho1ocron/Urfu-game" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+                GitHub
+              </a>
+            </div>
+          </article>
+
+          <!-- Space-Shooter -->
+          <article class="card">
+            <div class="card__header">
+              <span class="card__icon" aria-hidden="true">🚀</span>
+              <h3 class="card__title">Space-Shooter</h3>
+            </div>
+            <p class="card__desc">
+              Игра на модифицированном движке Godot с использованием godot-cpp. Кастомные расширения на C++ поверх GDScript.
+            </p>
+            <div class="card__stack badges">
+              <span class="badge badge--stack">GDScript</span>
+              <span class="badge badge--stack">C++</span>
+            </div>
+            <div class="card__links">
+              <a class="btn btn--ghost" href="https://github.com/Ho1ocron/Space-Shooter" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+                GitHub
+              </a>
+            </div>
+          </article>
+
+          <!-- GF-Engine -->
+          <article class="card">
+            <div class="card__header">
+              <span class="card__icon" aria-hidden="true">⚙️</span>
+              <h3 class="card__title">GF-Engine</h3>
+            </div>
+            <p class="card__desc">
+              Графический движок на C/C++ с использованием GLFW. Рендеринг примитивов, управление окном, низкоуровневая графика.
+            </p>
+            <div class="card__stack badges">
+              <span class="badge badge--stack">C/C++</span>
+              <span class="badge badge--stack">GLFW</span>
+            </div>
+            <div class="card__links">
+              <a class="btn btn--ghost" href="https://github.com/Ho1ocron/gf-engine" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+                GitHub
+              </a>
+            </div>
+          </article>
+
+          <!-- AI-агент Name Later — full width -->
+          <article class="card card--featured">
+            <div class="card__header">
+              <span class="card__icon" aria-hidden="true">🧠</span>
+              <h3 class="card__title">AI-агент «Name Later»</h3>
+              <span class="card__team-badge">Командный проект</span>
+            </div>
+            <p class="card__desc">
+              AI-агент для поиска помещений для бизнеса. Реализованы: система авторизации JWT, управление сессиями, чаты с ИИ, REST API. Развёртывание в Docker.
+            </p>
+            <div class="card__stack badges">
+              <span class="badge badge--stack">Python</span>
+              <span class="badge badge--stack">FastAPI</span>
+              <span class="badge badge--stack">PostgreSQL</span>
+              <span class="badge badge--stack">Docker</span>
+              <span class="badge badge--stack">JWT</span>
+            </div>
+            <div class="card__links">
+              <a class="btn btn--ghost" href="https://github.com/name-later-team-urfu/ui-web-backend" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+                ui-web-backend
+              </a>
+              <a class="btn btn--ghost" href="https://github.com/name-later-team-urfu/database-manager" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+                database-manager
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+
+
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer__text">
+        <a href="https://github.com/Ho1ocron" target="_blank" rel="noopener noreferrer">github.com/Ho1ocron</a>
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    const btn = document.getElementById('themeToggle');
+    btn.addEventListener('click', () => {
+      const dark = document.documentElement.getAttribute('data-theme') === 'dark';
+      document.documentElement.setAttribute('data-theme', dark ? 'light' : 'dark');
+      localStorage.setItem('theme', dark ? 'light' : 'dark');
+      btn.textContent = dark ? '☀' : '☾';
+    });
+    if (document.documentElement.getAttribute('data-theme') === 'dark') btn.textContent = '☾';
+  </script>
+
+</body>
+</html>
